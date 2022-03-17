@@ -1,0 +1,46 @@
+{
+	"name": "nextjs",
+	"version": "5.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest",
+		"postbuild": "node scripts/sitemap.js"
+	},
+	"dependencies": {
+		"@emotion/cache": "latest",
+		"@emotion/react": "latest",
+		"@emotion/server": "latest",
+		"@emotion/styled": "latest",
+		"@material-ui/core": "^4.12.3",
+		"@material-ui/icons": "^4.11.2",
+		"@material-ui/styles": "^4.11.4",
+		"@mui/icons-material": "latest",
+		"@mui/material": "latest",
+		"@mui/styles": "^5.5.0",
+		"axios": "^0.26.1",
+		"clsx": "^1.1.1",
+		"fileloader": "^2.0.0",
+		"fontfaceobserver": "^2.1.0",
+		"fs-extra": "^10.0.1",
+		"imagemin-mozjpeg": "^10.0.0",
+		"imagemin-optipng": "^8.0.0",
+		"next": "latest",
+		"next-compose-plugins": "^2.2.1",
+		"next-optimized-images": "^2.6.2",
+		"prop-types": "latest",
+		"react": "latest",
+		"react-dom": "latest",
+		"react-ga": "^3.3.0",
+		"react-lazy-load-image-component": "^1.5.1",
+		"react-lottie": "^1.2.3",
+		"react-router-dom": "^6.2.2"
+	},
+	"devDependencies": {
+		"eslint": "latest",
+		"eslint-config-next": "latest"
+	}
+}
